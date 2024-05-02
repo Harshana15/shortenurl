@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #323153;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 10rem;
+}
+.container{
+background-color: red;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px;
+gap: 1rem;
+}
+
+label{
+    padding: 10px;
+    color: white;
+}
+#url{
+    padding: 7px;
+}
+#url::placeholder{
+    text-align: center;
+}
+#btn{
+    background-color: #108d7d;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+}
+p{
+    color: white;
+}
+#results{
+    color: white;
+}
